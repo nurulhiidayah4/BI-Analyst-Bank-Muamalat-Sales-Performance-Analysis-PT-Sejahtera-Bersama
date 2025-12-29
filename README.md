@@ -1,30 +1,31 @@
 # BI-Analyst-Bank-Muamalat-Sales-Performance-Analysis-PT-Sejahtera-Bersama
 Business Intelligence Analyst project for PT Sejahtera Bersama. End-to-end data processing using SQL and interactive dashboarding with Looker Studio to analyze sales performance (2020-2021) for Bank Muamalat Virtual Internship.
 
-📌 Deskripsi Proyek
+## 📌 Deskripsi Proyek
+Proyek ini merupakan bagian dari tugas akhir **Virtual Internship Experience (VIX) - BI Analyst di Bank Muamalat**. Fokus utama proyek ini adalah mengolah dan menganalisis data transaksi PT Sejahtera Bersama periode 2020-2021 untuk memberikan wawasan bisnis bagi manajemen.
 
-Proyek ini adalah bagian dari tugas akhir Virtual Internship di Bank Muamalat. Sebagai BI Analyst, saya bertugas mengolah data transaksi PT Sejahtera Bersama periode 2020-2021 untuk memberikan wawasan strategis kepada manajemen.
-📊 Masalah Bisnis
+## 🛠️ Langkah Pengerjaan
+1. **Data Manipulation (SQL):** Menggabungkan 4 tabel utama (Customers, Orders, Products, dan Category) menggunakan perintah `JOIN` di SQL untuk menghasilkan tabel master tunggal.
+2. **Visualisasi Data (Looker Studio):** Membangun dashboard interaktif untuk memantau performa penjualan secara keseluruhan, per kategori, dan per wilayah.
 
-Manajemen ingin mengetahui performa penjualan produk, kategori mana yang memberikan keuntungan terbesar, serta bagaimana persebaran pelanggan di berbagai kota untuk menentukan strategi pemasaran selanjutnya.
-🛠️ Langkah Pengerjaan
+## 📈 Temuan Utama (Key Insights)
+Berdasarkan analisis dashboard, ditemukan beberapa poin penting:
+* **Kategori Pendapatan Tertinggi:** **Training Videos** mencatatkan total penjualan terbesar. Meskipun volume unitnya tidak sebanyak kategori lain, harga per unit yang lebih tinggi memberikan kontribusi pendapatan yang signifikan.
+* **Kategori Volume Terbanyak:** **eBooks** mendominasi dari sisi kuantitas penjualan, menjadikannya produk paling populer bagi pelanggan baru.
+* **Potensi Wilayah:** Beberapa kota kunci teridentifikasi memiliki tingkat transaksi yang sangat aktif, yang dapat menjadi fokus ekspansi di masa depan.
 
-    Data Integration (SQL): Menggabungkan 4 tabel utama (Customers, Orders, Products, dan Category) menggunakan SQL JOIN untuk membentuk satu tabel master.
-    Data Cleaning: Memastikan data harga, kuantitas, dan tanggal sudah dalam format yang benar.
-    Data Visualization (Looker Studio): Membuat dashboard interaktif untuk memvisualisasikan 7 metrik utama sesuai permintaan bisnis.
+## 💡 Rekomendasi Strategis
+* **Strategi Bundling:** Menggabungkan produk premium seperti *Robots* atau *Drones* dengan *Training Videos* untuk meningkatkan nilai transaksi rata-rata.
+* **Customer Retention:** Menggunakan data kategori *eBooks* yang memiliki volume tinggi untuk strategi pemasaran ulang (remarketing) produk-produk bernilai tinggi lainnya.
 
-📈 Temuan Utama (Key Insights)
+## 🗂️ Daftar File
+* `SQLite.csv`: Tabel master hasil pengolahan SQL.
+* `query_master_table.sql`: Kode SQL yang digunakan untuk penggabungan data.
+* `Dashboard_Report.pdf`: Dokumentasi visual dashboard penjualan.
 
-    Kategori Terlaris (Sales): Training Videos mencatatkan total nilai penjualan tertinggi. Hal ini menunjukkan produk edukasi memiliki nilai jual yang kuat bagi perusahaan.
-    Volume Penjualan (Qty): Kategori eBooks adalah yang paling banyak terjual secara kuantitas karena harganya yang terjangkau.
-    Performa Geografis: Identifikasi kota-kota dengan total sales tertinggi untuk fokus ekspansi pasar.
+## 🔗 Tautan Terkait
+* **Dashboard Looker Studio:** [(https://lookerstudio.google.com/reporting/e0fed1a6-e0f6-4a59-b17f-45a90fcb2d34)]
+* **Video Presentasi:** [MASUKKAN_LINK_VIDEO_PRESENTASI_DI_SINI]
 
-💡 Rekomendasi Strategis
-
-    Melakukan bundling produk fisik (seperti Robots/Drones) dengan Training Videos untuk meningkatkan nilai rata-rata transaksi (AOV).
-    Memberikan promo khusus pada kategori eBooks sebagai strategi menarik pelanggan baru (customer acquisition).
-
-🔗 Tautan Terkait
-
-    Dashboard Looker Studio: [(https://lookerstudio.google.com/reporting/e0fed1a6-e0f6-4a59-b17f-45a90fcb2d34)]
-    Video Presentasi: [MASUKKAN_LINK_VIDEO_PRESENTASI_DI_SINI]
+---
+*Proyek ini disusun untuk memenuhi kualifikasi seleksi BI Analyst Bank Muamalat.*
