@@ -25,7 +25,7 @@ Berdasarkan analisis dashboard, ditemukan beberapa poin penting:
 
 ## 🔗 Tautan Terkait
 * **Dashboard Looker Studio:** [(https://lookerstudio.google.com/reporting/e0fed1a6-e0f6-4a59-b17f-45a90fcb2d34)]
-* **Video Presentasi:** [MASUKKAN_LINK_VIDEO_PRESENTASI_DI_SINI]
+* **Video Presentasi:** [(https://drive.google.com/drive/folders/1QXgc1E2-wR3SOqL3b2ahPgk_-2uVRY87)]
 
 ---
 *Proyek ini disusun untuk memenuhi kualifikasi seleksi BI Analyst Bank Muamalat.*
